@@ -1,0 +1,27 @@
+{
+  "extends": "./packages/config/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": true,
+    "types": ["node", "vitest/globals"],
+    "paths": {
+      "@/*": ["./apps/web/src/*"],
+      "@bluesnake-studios/addon-core": ["./packages/addon-core/src/index.ts"],
+      "@bluesnake-studios/addon-core/*": ["./packages/addon-core/src/*"],
+      "@bluesnake-studios/addon-crypto": ["./packages/addon-crypto/src/index.ts"],
+      "@bluesnake-studios/addon-crypto/*": ["./packages/addon-crypto/src/*"],
+      "@bluesnake-studios/addon-minting": ["./packages/addon-minting/src/index.ts"],
+      "@bluesnake-studios/addon-minting/*": ["./packages/addon-minting/src/*"],
+      "@bluesnake-studios/addon-store": ["./packages/addon-store/src/index.ts"],
+      "@bluesnake-studios/addon-store/*": ["./packages/addon-store/src/*"],
+      "@bluesnake-studios/moss60": ["./packages/moss60/src/index.ts"],
+      "@bluesnake-studios/moss60/*": ["./packages/moss60/src/*"],
+      "@bluesnake-studios/ui": ["./packages/ui/src/index.ts"],
+      "@bluesnake-studios/ui/*": ["./packages/ui/src/*"],
+      "@bluesnake-studios/config": ["./packages/config/src/index.ts"],
+      "@bluesnake-studios/config/*": ["./packages/config/src/*"]
+    }
+  },
+  "include": ["apps/**/*", "packages/**/*", "tests/**/*", "vitest.config.ts", "eslint.config.mjs"],
+  "exclude": ["node_modules", ".next", "dist"]
+}

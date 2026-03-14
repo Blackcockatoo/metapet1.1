@@ -1,0 +1,69 @@
+:root {
+  --font-display: "Fraunces";
+  --font-sans: "Space Grotesk";
+
+  /* ─── Core ink palette ─────────────────────────────────────── */
+  --color-ink-950: #060d10;
+  --color-ink-900: #0c1920;
+  --color-ink-800: #152d36;
+  --color-ink-600: #2e4f59;
+  --color-ink-400: #5a8490;
+  --color-ink-300: #8db5ba;
+  --color-ink-100: #eaf1ed;
+
+  /* ─── Gold ─────────────────────────────────────────────────── */
+  --color-gold-500: #d4933a;
+  --color-gold-400: #f0b349;
+  --color-gold-300: #ffd27a;
+  --color-gold-200: #ffe9b3;
+  --color-gold-100: #fff5e4;
+
+  /* ─── Mint ─────────────────────────────────────────────────── */
+  --color-mint-600: #2a8c73;
+  --color-mint-500: #3eb091;
+  --color-mint-300: #6dcdb5;
+  --color-mint-200: #a4dfd0;
+
+  /* ─── Rarity chromatic scale ───────────────────────────────── */
+  --color-rarity-common:    #7a9ea3;
+  --color-rarity-uncommon:  #4ade80;
+  --color-rarity-rare:      #60a5fa;
+  --color-rarity-epic:      #c084fc;
+  --color-rarity-legendary: #fb923c;
+  --color-rarity-mythic:    #f472b6;
+
+  /* ─── Surfaces ─────────────────────────────────────────────── */
+  --color-card:        rgba(9, 22, 28, 0.80);
+  --color-card-strong: rgba(14, 34, 42, 0.94);
+  --color-card-glass:  rgba(12, 28, 36, 0.60);
+
+  /* ─── Borders ──────────────────────────────────────────────── */
+  --color-border:       rgba(234, 241, 237, 0.10);
+  --color-border-gold:  rgba(240, 179, 73, 0.22);
+  --color-border-hover: rgba(234, 241, 237, 0.24);
+
+  /* ─── Shadows ──────────────────────────────────────────────── */
+  --shadow-soft:       0 8px 32px rgba(0, 0, 0, 0.40), 0 2px 8px rgba(0, 0, 0, 0.30);
+  --shadow-card:       0 4px 24px rgba(0, 0, 0, 0.45), 0 1px 4px rgba(0, 0, 0, 0.35);
+  --shadow-card-hover: 0 8px 48px rgba(0, 0, 0, 0.55), 0 0 32px rgba(240, 179, 73, 0.10);
+  --shadow-button:     0 2px 16px rgba(240, 179, 73, 0.18);
+  --shadow-canvas:     inset 0 0 80px rgba(0, 0, 0, 0.90), 0 0 48px rgba(0, 0, 0, 0.60);
+
+  /* ─── Glow ─────────────────────────────────────────────────── */
+  --glow-gold:   0 0 40px rgba(240, 179, 73, 0.22), 0 0 80px rgba(240, 179, 73, 0.08);
+  --glow-mint:   0 0 40px rgba(62, 176, 145, 0.18), 0 0 80px rgba(62, 176, 145, 0.07);
+  --glow-subtle: 0 0 60px rgba(240, 179, 73, 0.06);
+
+  /* ─── Geometry ─────────────────────────────────────────────── */
+  --radius-large:  24px;
+  --radius-medium: 16px;
+  --radius-small:  999px;
+
+  /* ─── Layout ───────────────────────────────────────────────── */
+  --content-width: 1180px;
+
+  /* ─── Motion ───────────────────────────────────────────────── */
+  --ease-out:    cubic-bezier(0.22, 1, 0.36, 1);
+  --transition:  0.20s var(--ease-out);
+  --transition-slow: 0.35s var(--ease-out);
+}
