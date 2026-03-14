@@ -1,0 +1,35 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "MetaPet Main App (Next.js)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "Teacher Veil Website (Vite)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "05-Teacher-Veil-App/Veil-Website"],
+      "port": 5173
+    },
+    {
+      "name": "SuiteMaster (Next.js)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "07-SuiteMaster"],
+      "port": 3001
+    },
+    {
+      "name": "Addon System Web App (pnpm)",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["run", "dev", "--filter", "@bluesnake-studios/web"],
+      "port": 3001
+    },
+    {
+      "name": "Time Calculator Compass (Vite)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "time-calculator-compass/time-calculator-compass"],
+      "port": 5174
+    }
+  ]
+}
